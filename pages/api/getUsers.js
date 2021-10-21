@@ -2,5 +2,5 @@
 
 export default function handler(req, res)
 {
-  res.status(200).json([{ name: 'User',age: 20, password: 1234 },{ name: 'Osama',age: 25, password: 1234 }]);
+  res.status(200).json([{ name: 'User',age: '20', password: '1234' },{ name: 'Osama',age: '25', password: '1234' }]);
 }
